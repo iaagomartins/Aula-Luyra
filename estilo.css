@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Dosis&display=swap');
+
+* {
+    box-sizing: 0;
+    margin: 0;
+}
+
+/*Estilização do corpo da página*/
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+}
+.sobre{
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+/*Estilização da sessão HEADER da página*/
+header {
+    /* aqui */
+    background: #38afc7;
+    width: 100%;
+    height: 20vh; /* view height */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*Estilização da sessão NAV (navegação) da página*/
+nav {
+}
+.center{
+    width: "600";
+    height: "450";
+    style="border: 0;"
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+nav li {
+
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/*Estilização das listas da página*/
+ul {
+    list-style: none;
+}
+
+/*Estilização do Logotipo*/
+.logo {
+    width: 15%;
+}
+
+/*Banner*/
+.banner {
+    width: 100%;
+}
+main{
+    background: rgb(11, 156, 156);
+    width: 100%;
+    
+}
+
+/*Estilização da área "Sobre"*/
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    
+    margin: 0 0 1em;
+    clear: left;
+    font-family: 'Dosis', sans-serif;
+}
+.sub-titulo{
+    text-align: center;
+    font-size: 2em;
+    color: #FFFFFE;
+    margin: 0 0 1em;
+    clear: left;
+    font-family: 'Dosis', sans-serif;
+    
+}
+.principal {
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+    text-align: justify;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+ 
+.pizza {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+/* Estilização do Mapa */
+.map {
+    padding: 3em 0;
+    background: linear-gradient(#FFFFFE, #ffbb00);
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+.mapa-conteudo {
+    width: "600";
+    height: "450";
+    style="border: 0;"
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Aref Ruqaa Ink', serif;
+    
+}
+
+.map p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #f380c7;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Copyright */
+.copyright {
+    color: #121010;
+    font-size: 12px;
+    margin: 5px 0 0;
+}
